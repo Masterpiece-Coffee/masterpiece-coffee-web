@@ -1,13 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { withPrefix } from 'gatsby';
+import { withPrefix, graphql, useStaticQuery } from 'gatsby';
+
 import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { Footer } from '../components/Footer';
 import { Navbar } from '../components/Navbar';
 import { useSiteMetadata } from './useSiteMetadata';
-import coffeeBeanTexture from '../img/coffee-bean-texture.jpg';
 
 const LayoutWrapper = styled.div`
   display: flex;
@@ -26,6 +26,25 @@ const PageContainer = styled.div`
 
 export const Layout = ({ children }) => {
   const { title, description } = useSiteMetadata();
+
+  const {
+    backgroundTexture: {
+      fixed: { src: backgroundTexture },
+    },
+  } = useStaticQuery(
+    graphql`
+      query BackgroundTexture {
+        backgroundTexture: imageSharp(
+          fixed: { originalName: { eq: "coffee-bean-texture.jpg" } }
+        ) {
+          fixed {
+            src
+          }
+        }
+      }
+    `,
+  );
+
   return (
     <>
       <Helmet>
@@ -74,7 +93,7 @@ export const Layout = ({ children }) => {
       <Global
         styles={css`
           body {
-            background: url(${coffeeBeanTexture}) #1a0801;
+            background: url(${backgroundTexture}) #1a0801;
             color: #281300;
             font-family: veranda, arial, sans-serif;
             margin: 22px;
