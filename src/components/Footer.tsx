@@ -7,6 +7,7 @@ const FooterWrapper = styled.footer`
   padding: 1em;
   color: white;
   text-align: center;
+  font-size: 12px;
 `;
 
 export const Footer = () => (

@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 
 import { Footer } from '../components/Footer';
 import { Navbar } from '../components/Navbar';
-import useSiteMetadata from './SiteMetadata';
+import { useSiteMetadata } from './useSiteMetadata';
 import coffeeBeanTexture from '../img/coffee-bean-texture.jpg';
 
 const LayoutWrapper = styled.div`
@@ -77,6 +77,9 @@ export const Layout = ({ children }) => {
             background: url(${coffeeBeanTexture}) #1a0801;
             font-family: sans-serif;
             margin: 22px;
+          }
+          img {
+            display: block;
           }
         `}
       />
