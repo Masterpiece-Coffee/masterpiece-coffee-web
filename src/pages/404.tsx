@@ -1,12 +1,22 @@
 import React from 'react';
+import styled from '@emotion/styled';
 import { Layout } from '../components/Layout';
+
+const PageWrapper = styled.div`
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </div>
+    <PageWrapper>
+      <h1>Page Not Found</h1>
+      <p>
+        This route doesn&#39;t exist... Use the menu above to explore the site.
+      </p>
+    </PageWrapper>
   </Layout>
 );
 
