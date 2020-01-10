@@ -14,18 +14,21 @@ sections:
       Your privacy in security are in good hands with Masterpiece Coffee. We go to great lengths to protect your information and will never share your information with anyone without your consent. We at Masterpiece Coffee respect your privacy. We do not sell, trade, rent, or give out customer names, mailing addresses, email addresses, telephone numbers, or information to third parties. For your safety and security Masterpiece Coffee does not store credit card information after you order has been processed. Your credit card will not be charged until the merchandise you ordered has been shipped.
 
   - title: Masterpiece Coffee
-    content: >
-      31-C Pamaron Way
+    content: |-
+      31-C Pamaron Way  
       Novato, CA 94949
+
       Phone: (415) 884-2990
       Fax: (415) 884-2991
 
-      For Customer Service or Questions, contact Jared@masterpiececoffeeco.com
+      For Customer Service or Questions, contact [Jared@masterpiececoffeeco.com](Jared@masterpiececoffeeco.com)
 
-      To place an order, contact Orders@masterpiececoffeeco.com
+      To place an order, contact
+      [Orders@masterpiececoffeeco.com](Orders@masterpiececoffeeco.com)
 
       Orders received after 12 noon will be processed the following day.
-      Our Roasting and Blending Process
+  - title: Our Roasting and Blending Process
+    content: >
       We love coffee and take great pride in our dedication to the roast. All of our coffees are roasted in a small batch drum roaster and all are finished with the artistry of the roaster not the program of a computer. Our blends are carefully constructed and not available anywhere else. We invite you to experience the difference.
 
   - title: Customer Service
