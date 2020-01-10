@@ -6,16 +6,18 @@ import ReactMarkdown from 'react-markdown';
 import { Layout } from '../components/Layout';
 
 const PageWrapper = styled.div`
-  padding: 1em;
+  padding: 0.8em;
   column-count: 2;
 `;
 
 const Section = styled.div`
   display: inline-block;
   padding: 1.5em;
+  font-size: 0.95em;
   line-height: 1.5em;
   h2 {
-    font-size: 1.5em;
+    font-size: 1.1em;
+    margin: 0;
   }
 `;
 

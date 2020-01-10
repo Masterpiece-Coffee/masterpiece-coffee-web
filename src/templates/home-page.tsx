@@ -5,6 +5,7 @@ import Carousel from 'nuka-carousel';
 
 import { Layout } from '../components/Layout';
 import { PagingDots } from '../components/PagingDots';
+import { PreviewCompatibleImage } from '../components/PreviewCompatibleImage';
 
 export const IndexPageTemplate = ({ carousel = [] }) => (
   <Carousel
@@ -14,13 +15,9 @@ export const IndexPageTemplate = ({ carousel = [] }) => (
     renderCenterRightControls={null}
     renderBottomCenterControls={props => <PagingDots {...props} />}
   >
-    {carousel.map(({ image, alt }, index) =>
-      typeof image === 'string' ? (
-        <img key={index} src={image} alt={alt} />
-      ) : (
-        <Img key={index} fluid={image.childImageSharp.fluid} alt={alt} />
-      ),
-    )}
+    {carousel.map(({ image, alt }, index) => (
+      <PreviewCompatibleImage key={index} image={image} alt={alt} />
+    ))}
   </Carousel>
 );
 
@@ -43,8 +40,8 @@ export const pageQuery = graphql`
         carousel {
           image {
             childImageSharp {
-              fluid(maxWidth: 833, quality: 100) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 833, quality: 100) {
+                ...GatsbyImageSharpFixed
               }
             }
             publicURL

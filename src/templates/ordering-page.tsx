@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
 
 import { Layout } from '../components/Layout';
 
 const PageWrapper = styled.div`
-  padding: 1em;
+  padding: 0.8em;
   display: grid;
   grid-template-columns: 1fr 1fr;
 `;
@@ -44,7 +44,7 @@ export const OrderingPageTemplate = ({ categories = [] }) => (
       <Category key={index}>
         <h2>{categoryTitle}</h2>
         {subcategories.map(({ subcategoryTitle, products }, index) => (
-          <>
+          <Fragment key={index}>
             <SubCategoryTitle>{subcategoryTitle}</SubCategoryTitle>
             {products.map(({ name, weight, price, description }, index) => (
               <Product key={index}>
@@ -54,7 +54,7 @@ export const OrderingPageTemplate = ({ categories = [] }) => (
                 <div>{description}</div>
               </Product>
             ))}
-          </>
+          </Fragment>
         ))}
       </Category>
     ))}
