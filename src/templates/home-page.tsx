@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Carousel from 'nuka-carousel';
 
@@ -14,11 +14,11 @@ export const IndexPageTemplate = ({ carousel = [] }) => (
     renderCenterRightControls={null}
     renderBottomCenterControls={props => <PagingDots {...props} />}
   >
-    {carousel.map(({ image, alt }) =>
+    {carousel.map(({ image, alt }, index) =>
       typeof image === 'string' ? (
-        <img src={image} alt={alt} />
+        <img key={index} src={image} alt={alt} />
       ) : (
-        <Img fluid={image.childImageSharp.fluid} alt={alt} />
+        <Img key={index} fluid={image.childImageSharp.fluid} alt={alt} />
       ),
     )}
   </Carousel>
