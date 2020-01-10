@@ -13,7 +13,6 @@ const CoffeeType = styled.div`
   display: flex;
   align-items: center;
   padding: 10px;
-  font-family: arial, san-serif;
   line-height: 1.5em;
 `;
 

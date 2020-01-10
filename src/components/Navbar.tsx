@@ -59,8 +59,8 @@ export const Navbar = () => (
         <Link to="/ordering" activeClassName="active">
           Ordering
         </Link>
-        <Link to="/contact" activeClassName="active">
-          Contact
+        <Link to="/about" activeClassName="active">
+          About Us
         </Link>
         <PhoneLinkWrapper>
           <a href="tel:4158842990">(415) 884-2990</a>

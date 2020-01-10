@@ -119,3 +119,23 @@ collections:
                   },
                 ],
             }
+      - file: 'src/pages/about.md'
+        label: 'About Us'
+        name: 'about'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'about-page',
+            }
+          - {
+              label: Sections,
+              name: sections,
+              widget: list,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Content, name: content, widget: markdown },
+                ],
+            }

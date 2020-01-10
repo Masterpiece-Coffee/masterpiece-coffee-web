@@ -5,6 +5,7 @@ import cloudinary from 'netlify-cms-media-library-cloudinary';
 import HomePagePreview from './preview-templates/HomePagePreview';
 import CoffeesPagePreview from './preview-templates/CoffeesPagePreview';
 import OrderingPagePreview from './preview-templates/OrderingPagePreview';
+import AboutPagePreview from './preview-templates/AboutPagePreview';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -12,3 +13,4 @@ CMS.registerMediaLibrary(cloudinary);
 CMS.registerPreviewTemplate('home', HomePagePreview);
 CMS.registerPreviewTemplate('coffees', CoffeesPagePreview);
 CMS.registerPreviewTemplate('ordering', OrderingPagePreview);
+CMS.registerPreviewTemplate('about', AboutPagePreview);
