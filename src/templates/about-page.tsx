@@ -17,7 +17,11 @@ const Section = styled.div`
   line-height: 1.5em;
   h2 {
     font-size: 1.1em;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+  p:first-of-type {
+    margin-top: 0;
   }
 `;
 

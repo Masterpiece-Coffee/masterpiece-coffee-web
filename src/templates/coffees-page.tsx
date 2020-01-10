@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
+import ReactMarkdown from 'react-markdown';
 
 import { Layout } from '../components/Layout';
 import { PreviewCompatibleImage } from '../components/PreviewCompatibleImage';
@@ -29,6 +30,9 @@ const CoffeeTypeTitle = styled.h2`
 
 const CoffeeTypeDescription = styled.div`
   font-size: 0.9em;
+  p:first-of-type {
+    margin-top: 0;
+  }
 `;
 
 export const CoffeesPageTemplate = ({ coffeeTypes = [] }) => (
@@ -40,7 +44,9 @@ export const CoffeesPageTemplate = ({ coffeeTypes = [] }) => (
         </CoffeeTypeSection>
         <CoffeeTypeSection>
           <CoffeeTypeTitle>{title}</CoffeeTypeTitle>
-          <CoffeeTypeDescription>{description}</CoffeeTypeDescription>
+          <CoffeeTypeDescription>
+            <ReactMarkdown>{description}</ReactMarkdown>
+          </CoffeeTypeDescription>
         </CoffeeTypeSection>
       </CoffeeType>
     ))}

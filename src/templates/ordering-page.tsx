@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 import styled from '@emotion/styled';
+import ReactMarkdown from 'react-markdown';
 
 import { Layout } from '../components/Layout';
 
@@ -31,6 +32,9 @@ const Product = styled.div`
     margin-bottom: 0.25em;
     font-size: 14px;
   }
+  p:first-of-type {
+    margin-top: 0;
+  }
 `;
 
 const formatCurrency = new Intl.NumberFormat('en-US', {
@@ -51,7 +55,7 @@ export const OrderingPageTemplate = ({ categories = [] }) => (
                 <h4>
                   {name} ({weight} lbs) ~ {formatCurrency(price)}
                 </h4>
-                <div>{description}</div>
+                <ReactMarkdown>{description}</ReactMarkdown>
               </Product>
             ))}
           </Fragment>
