@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { CoffeesPageTemplate } from '../../templates/coffees-page';
+import { OrderingPageTemplate } from '../../templates/ordering-page';
 
-const CoffeesPagePreview = ({ entry }) => {
+const OrderingPagePreview = ({ entry }) => {
   const data = entry.getIn(['data']).toJS();
 
   if (data) {
-    return <CoffeesPageTemplate coffeeTypes={data.coffeeTypes} />;
+    return <OrderingPageTemplate categories={data.categories} />;
   } else {
     return <div>Loading...</div>;
   }
 };
 
-CoffeesPagePreview.propTypes = {
+OrderingPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
 };
 
-export default CoffeesPagePreview;
+export default OrderingPagePreview;

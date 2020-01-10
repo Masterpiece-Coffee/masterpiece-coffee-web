@@ -57,3 +57,65 @@ collections:
                   { label: Alt, name: alt, widget: string },
                 ],
             }
+      - file: 'src/pages/ordering.md'
+        label: 'Ordering'
+        name: 'ordering'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'ordering-page',
+            }
+          - {
+              label: Categories,
+              name: categories,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: Category Title,
+                    name: categoryTitle,
+                    widget: string,
+                  },
+                  {
+                    label: Subcategories,
+                    name: subcategories,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: Subcategory Title,
+                          name: subcategoryTitle,
+                          widget: string,
+                        },
+                        {
+                          label: Products,
+                          name: products,
+                          widget: list,
+                          fields:
+                            [
+                              { label: Name, name: name, widget: string },
+                              {
+                                label: Weight,
+                                name: weight,
+                                widget: number,
+                                valueType: float,
+                              },
+                              {
+                                label: Price,
+                                name: price,
+                                widget: number,
+                                valueType: float,
+                              },
+                              {
+                                label: Description,
+                                name: description,
+                                widget: markdown,
+                              },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }

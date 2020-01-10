@@ -67,7 +67,7 @@ export const Layout = ({ children }) => {
         />
 
         <link
-          href="https://fonts.googleapis.com/css?family=Francois+One&display=swap"
+          href="https://fonts.googleapis.com/css?family=Francois+One|Dancing+Script&display=swap"
           rel="stylesheet"
         ></link>
       </Helmet>
@@ -75,7 +75,8 @@ export const Layout = ({ children }) => {
         styles={css`
           body {
             background: url(${coffeeBeanTexture}) #1a0801;
-            font-family: sans-serif;
+            color: #281300;
+            font-family: veranda, arial, sans-serif;
             margin: 22px;
           }
           img {
