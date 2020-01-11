@@ -6,11 +6,12 @@ import HomePagePreview from './preview-templates/HomePagePreview';
 import CoffeesPagePreview from './preview-templates/CoffeesPagePreview';
 import OrderingPagePreview from './preview-templates/OrderingPagePreview';
 import AboutPagePreview from './preview-templates/AboutPagePreview';
+import withEmotion from './withEmotion';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
-CMS.registerPreviewTemplate('home', HomePagePreview);
-CMS.registerPreviewTemplate('coffees', CoffeesPagePreview);
-CMS.registerPreviewTemplate('ordering', OrderingPagePreview);
-CMS.registerPreviewTemplate('about', AboutPagePreview);
+CMS.registerPreviewTemplate('home', withEmotion(HomePagePreview));
+CMS.registerPreviewTemplate('coffees', withEmotion(CoffeesPagePreview));
+CMS.registerPreviewTemplate('ordering', withEmotion(OrderingPagePreview));
+CMS.registerPreviewTemplate('about', withEmotion(AboutPagePreview));
