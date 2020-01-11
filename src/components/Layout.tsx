@@ -19,7 +19,7 @@ const LayoutContainer = styled.div`
   max-width: 833px;
 `;
 
-const PageContainer = styled.div`
+export const PageContainer = styled.div`
   background: #ccaa70;
   color: #281300;
 `;

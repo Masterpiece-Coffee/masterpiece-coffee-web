@@ -2,6 +2,7 @@ import React from 'react';
 import { CacheProvider } from '@emotion/core';
 import createCache from '@emotion/cache';
 import weakMemoize from '@emotion/weak-memoize';
+import { PageContainer } from '../components/Layout';
 
 const memoizedCreateCacheWithContainer = weakMemoize(container => {
   let newCache = createCache({ container });
@@ -18,7 +19,9 @@ export default Component => props => {
 
   return (
     <CacheProvider value={memoizedCreateCacheWithContainer(iframeHeadElem)}>
-      <Component {...props} />
+      <PageContainer>
+        <Component {...props} />
+      </PageContainer>
     </CacheProvider>
   );
 };
