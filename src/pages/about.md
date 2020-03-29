@@ -33,9 +33,7 @@ sections:
       Novato, CA 94949
 
 
-      Phone: (415) 884-2990\
-
-      Fax: (415) 884-2991
+      Phone: (415) 884-2990
 
 
       For Customer Service or Questions, contact
