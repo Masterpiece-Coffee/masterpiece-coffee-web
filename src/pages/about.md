@@ -28,18 +28,18 @@ sections:
       ordered has been shipped.
     title: Privacy and Security
   - content: >-
-      31-C Pamaron Way  
+      31-C Pamaron Way\
 
       Novato, CA 94949
 
 
-      Phone: (415) 884-2990  
+      Phone: (415) 884-2990\
 
       Fax: (415) 884-2991
 
 
       For Customer Service or Questions, contact
-      [Jared@masterpiececoffeeco.com](Jared@masterpiececoffeeco.com)
+      [amanda@masterpiececoffeeco.com](Jared@masterpiececoffeeco.com)
 
 
       To place an order, contact
