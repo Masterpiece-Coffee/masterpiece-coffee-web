@@ -177,5 +177,8 @@ categories:
             price: 10
             weight: 1
         subcategoryTitle: Decaffeinated
+  - categoryTitle: Masterpiece Coffee
+    subcategories:
+      - subcategoryTitle: "12 G Pamaron Way\uFEFF Novato, CA 94949  679 Hedburg Way Oakdale, CA 95361  Phone: (415) 884-2990  For Customer Service or Questions, contact amanda@masterpiececoffeeco.com\uFEFF  To place an order, contact Orders@masterpiececoffeeco.com\uFEFF  Orders received after 12 noon will be processed the following day."
 ---
 
