@@ -1,12 +1,13 @@
 ---
 templateKey: about-page
 sections:
-  - content: >
+  - content: >-
       Masterpiece Coffee is a small wholesale boutique coffee roasting company
-      located in Novato just north of San Francisco, CA. We love coffee and
-      strive to present you with the coffee experience only a small roaster can
+      with two locations in Norhtern California. Novato, just north of San
+      Francisco, and Oakdale, in the Central Valley. We love coffee and strive
+      to present you with the coffee experience only a small roaster can
       provide. We roast daily in small batches, using only the finest Arabica
-      beans, to control quality and provide only what our clients need.
+      beans to control quality and provide only what our clients need.
     title: Our Company
   - content: >
       We are a certified Organic Coffee roaster with over twenty years of
