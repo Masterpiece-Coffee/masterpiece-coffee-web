@@ -40,14 +40,6 @@ categories:
             price: 10
             weight: 1
           - description: >
-              Our Colombia Santa Marta comes from the highest tropical mountain
-              coast range in the world. Medium round body, sweet acidity,
-              chocolate and nutty flavors. Perfect for those of you who like a
-              smooth flavorful cup of coffee. Sweet, fruity.
-            name: Colombian Estate
-            price: 10
-            weight: 1
-          - description: >
               Exotic Indonesian Sumatra coffee... Like no other coffee in the
               world. Earthy and complex with a rich body, low acidity, sweet and
               fruity with a hint of grapefruit. Earthly, full-bodied, exotic.
