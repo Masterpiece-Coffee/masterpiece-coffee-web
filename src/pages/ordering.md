@@ -5,11 +5,10 @@ categories:
     subcategories:
       - products:
           - description: >-
-              \    Our signature blend and #1 Organic seller is designed to
-              provide you with a strong, full-bodied coffee without the
-              bitterness associated with dark roasted coffees. Some of our
-              clients who prefer Dark Espresso love the North Beach for this
-              purpose.
+              Our signature blend and #1 Organic seller is designed to provide
+              you with a strong, full-bodied coffee without the bitterness
+              associated with dark roasted coffees. Some of our clients who
+              prefer Dark Espresso love the North Beach for this purpose.
             name: The North Beach Blend
             price: 10
             weight: 1
