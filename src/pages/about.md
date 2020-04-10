@@ -37,15 +37,14 @@ sections:
       679 Hedburg Way Oakdale, CA 95361
 
 
-      Phone: (415) 884-2990
+      Phone: (415) 884-2990 or (209) 918-6060
 
 
       For Customer Service or Questions, contact
       [amanda@masterpiececoffeeco.com](Jared@masterpiececoffeeco.com)
 
 
-      To place an order, contact
-      [Orders@masterpiececoffeeco.com](Orders@masterpiececoffeeco.com)
+      To place an order:  [](Orders@masterpiececoffeeco.com)rtsnorcal.com
 
 
       Orders received after 12 noon will be processed the following day.
@@ -63,9 +62,15 @@ sections:
       looking for here, please contact us by email or phone and we'll be glad to
       assist you. Contacting Masterpiece Coffee is easy.
     title: Customer Service
-  - content: >
+  - content: >-
       For those of you who wish additional information for larger orders with
       appropriate pricing please contact us at your convenience.
+
+
+      (209) 918-6060
+
+
+      (415) 884-2990
     title: Wholesale Bulk Coffee Orders
 ---
 
