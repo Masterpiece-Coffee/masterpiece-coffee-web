@@ -29,12 +29,10 @@ sections:
       ordered has been shipped.
     title: Privacy and Security
   - content: >-
-      12 G Pamaron Way\
-
-      Novato, CA 94949
+      12 G Pamaron Way - Novato, CA 94949
 
 
-      679 Hedburg Way Oakdale, CA 95361
+      679 Hedburg Way - Oakdale, CA 95361
 
 
       Phone: (415) 884-2990 or (209) 918-6060
@@ -48,7 +46,7 @@ sections:
 
 
       Orders received after 12 noon will be processed the following day.
-    title: Masterpiece Coffee
+    title: Masterpiece Coffee Has Two Locations
   - content: >
       We love coffee and take great pride in our dedication to the roast. All of
       our coffees are roasted in a small batch drum roaster and all are finished
