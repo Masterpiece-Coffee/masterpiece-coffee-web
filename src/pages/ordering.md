@@ -108,8 +108,8 @@ categories:
             price: 8
             weight: 1
         subcategoryTitle: Decaffeinated
-  - categoryTitle: Online ordering
-    categoryDescription: >
-      Visit [https://rtsnorcal.com/] to place an order.
+  - categoryDescription: 'Visit <https://rtsnorcal.com> to place an order.'
+    categoryTitle: Online ordering
     subcategories: []
 ---
+
