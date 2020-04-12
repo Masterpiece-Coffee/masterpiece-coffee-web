@@ -79,6 +79,12 @@ collections:
                     widget: string,
                   },
                   {
+                    label: Category Description,
+                    name: categoryDescription,
+                    widget: markdown,
+                    required: false,
+                  },
+                  {
                     label: Subcategories,
                     name: subcategories,
                     widget: list,

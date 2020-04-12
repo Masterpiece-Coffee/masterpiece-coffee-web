@@ -16,7 +16,7 @@ sections:
       coffee houses, and many small and large businesses. We also provide
       private label services for several clients through out the country. We are
       pleased to be represented in several grocery stores including Whole Foods.
-    title: 'Fresh, Fresh, Fresh... that''s what we are all about'
+    title: "Fresh, Fresh, Fresh... that's what we are all about"
   - content: >
       Your privacy in security are in good hands with Masterpiece Coffee. We go
       to great lengths to protect your information and will never share your
@@ -39,10 +39,10 @@ sections:
 
 
       For Customer Service or Questions, contact
-      [amanda@masterpiececoffeeco.com](Jared@masterpiececoffeeco.com)
+      [amanda@masterpiececoffeeco.com](mailto:amanda@masterpiececoffeeco.com)
 
 
-      To place an order:  [](Orders@masterpiececoffeeco.com)rtsnorcal.com
+      To place an order, email [orders@masterpiececoffeeco.com](mailto:orders@masterpiececoffeeco.com) or visit [https://rtsnorcal.com/]
 
 
       Orders received after 12 noon will be processed the following day.
@@ -71,4 +71,3 @@ sections:
       (415) 884-2990
     title: Wholesale Bulk Coffee Orders
 ---
-

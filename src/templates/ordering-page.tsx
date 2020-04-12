@@ -44,24 +44,27 @@ const formatCurrency = new Intl.NumberFormat('en-US', {
 
 export const OrderingPageTemplate = ({ categories = [] }) => (
   <PageWrapper>
-    {categories.map(({ categoryTitle, subcategories }, index) => (
-      <Category key={index}>
-        <h2>{categoryTitle}</h2>
-        {subcategories.map(({ subcategoryTitle, products }, index) => (
-          <Fragment key={index}>
-            <SubCategoryTitle>{subcategoryTitle}</SubCategoryTitle>
-            {products.map(({ name, weight, price, description }, index) => (
-              <Product key={index}>
-                <h4>
-                  {name} ({weight} lbs) ~ {formatCurrency(price)}
-                </h4>
-                <ReactMarkdown>{description}</ReactMarkdown>
-              </Product>
-            ))}
-          </Fragment>
-        ))}
-      </Category>
-    ))}
+    {categories.map(
+      ({ categoryTitle, categoryDescription, subcategories }, index) => (
+        <Category key={index}>
+          <h2>{categoryTitle}</h2>
+          <ReactMarkdown>{categoryDescription}</ReactMarkdown>
+          {subcategories.map(({ subcategoryTitle, products }, index) => (
+            <Fragment key={index}>
+              <SubCategoryTitle>{subcategoryTitle}</SubCategoryTitle>
+              {products.map(({ name, weight, price, description }, index) => (
+                <Product key={index}>
+                  <h4>
+                    {name} ({weight} lbs) ~ {formatCurrency(price)}
+                  </h4>
+                  <ReactMarkdown>{description}</ReactMarkdown>
+                </Product>
+              ))}
+            </Fragment>
+          ))}
+        </Category>
+      ),
+    )}
   </PageWrapper>
 );
 
@@ -83,6 +86,7 @@ export const pageQuery = graphql`
       frontmatter {
         categories {
           categoryTitle
+          categoryDescription
           subcategories {
             subcategoryTitle
             products {
