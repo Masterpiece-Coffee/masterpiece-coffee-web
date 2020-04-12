@@ -16,7 +16,7 @@ sections:
       coffee houses, and many small and large businesses. We also provide
       private label services for several clients through out the country. We are
       pleased to be represented in several grocery stores including Whole Foods.
-    title: "Fresh, Fresh, Fresh... that's what we are all about"
+    title: 'Fresh, Fresh, Fresh... that''s what we are all about'
   - content: >
       Your privacy in security are in good hands with Masterpiece Coffee. We go
       to great lengths to protect your information and will never share your
@@ -35,14 +35,17 @@ sections:
       679 Hedburg Way - Oakdale, CA 95361
 
 
-      Phone: (415) 884-2990 or (209) 918-6060
+      Phone: [(415) 884-2990](tel:4158842990) or [(209)
+      918-6060](tel:2099186060)
 
 
       For Customer Service or Questions, contact
-      [amanda@masterpiececoffeeco.com](mailto:amanda@masterpiececoffeeco.com)
+      [amanda@mazsterpiececoffeeco.com](mailto:amanda@masterpiececoffeeco.com)
 
 
-      To place an order, email [orders@masterpiececoffeeco.com](mailto:orders@masterpiececoffeeco.com) or visit [https://rtsnorcal.com/]
+      To place an order, email
+      [orders@masterpiececoffeeco.com](mailto:orders@masterpiececoffeeco.com) or
+      visit <https://rtsnorcal.com>.
 
 
       Orders received after 12 noon will be processed the following day.
@@ -65,9 +68,10 @@ sections:
       appropriate pricing please contact us at your convenience.
 
 
-      (209) 918-6060
+      [(209) 918-6060](tel:2099186060)
 
 
-      (415) 884-2990
+      [(415) 884-2990](tel:4158842990)
     title: Wholesale Bulk Coffee Orders
 ---
+
