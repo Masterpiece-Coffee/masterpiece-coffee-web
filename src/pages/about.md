@@ -40,7 +40,7 @@ sections:
 
 
       For Customer Service or Questions, contact
-      [amanda@mazsterpiececoffeeco.com](mailto:amanda@masterpiececoffeeco.com)
+      [amanda@masterpiececoffeeco.com](mailto:amanda@masterpiececoffeeco.com)
 
 
       To place an order, email
