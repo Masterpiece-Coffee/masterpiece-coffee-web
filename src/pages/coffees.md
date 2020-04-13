@@ -9,7 +9,7 @@ coffeeTypes:
       wonderful flavors of the bean. Bold but not Bitter.... That's our goal!
       Try our French Roasts, or the North Beach Blend.
     image: /img/darkroast.jpg
-    title: Dark Roasted
+    title: Dark Roast
   - alt: Mug with medium roasted coffee
     description: >-
       Coffee beans have been compared to wine grapes by many people. That's
@@ -22,7 +22,7 @@ coffeeTypes:
       are great examples of medium roast coffees that have unique flavor
       profiles. Well worth trying.
     image: /img/medroast.jpg
-    title: Medium Roasted
+    title: Medium Roast
   - alt: Mug with espresso
     description: >-
       Espresso drinks are among the most popular in the world. You may prefer
