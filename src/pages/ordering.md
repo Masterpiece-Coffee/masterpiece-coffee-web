@@ -28,6 +28,15 @@ categories:
             name: Italian Roast
             price: 10
             weight: 1
+          - description: >-
+
+
+              Exotic Indonesian Sumatra coffee... Like no other coffee in the
+              world. Earthy and complex with a rich body, low acidity, sweet and
+              fruity with a hint of grapefruit. Earthly, full-bodied, exotic.
+            name: Golden Sumatra
+            price: 10
+            weight: 1
         subcategoryTitle: Dark Roasts
       - products:
           - description: >
@@ -36,13 +45,6 @@ categories:
               coffees and they are a dream to roast. One of my personal
               favorites. Distinct, chocolatey.
             name: Guatemalan
-            price: 10
-            weight: 1
-          - description: >
-              Exotic Indonesian Sumatra coffee... Like no other coffee in the
-              world. Earthy and complex with a rich body, low acidity, sweet and
-              fruity with a hint of grapefruit. Earthly, full-bodied, exotic.
-            name: Golden Sumatra
             price: 10
             weight: 1
           - description: >
