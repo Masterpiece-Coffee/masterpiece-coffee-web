@@ -56,8 +56,7 @@ categories:
             name: Costa Rican Estate
             price: 10
             weight: 1
-          - description: |
-              A smooth blend of Central and
+          - description: A smooth blend of Central and South American Coffee.
             name: Sustainable House Blend
             price: 10
             weight: 1
